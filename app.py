@@ -103,7 +103,7 @@ patterns_and_responses = [
     ]),
     
     # Daily conversations between friends
-    (r'(.*) what did you do today', [
+    (r'(.*) what did you do today |kya kiya aj ', [
         "I was here helping people like you! What did you do today?",
         "I spent my day assisting users. How about you?",
         "Main yahan tha logon ki madad karne ke liye. Aapne aaj kya kiya?",
