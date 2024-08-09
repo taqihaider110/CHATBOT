@@ -1,2 +1,4 @@
-Flask==2.3.3
-nltk==3.8.1
+Python 3.12.4
+Flask 3.0.3
+Werkzeug 3.0.3
+nltk, version 3.8.1
