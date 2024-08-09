@@ -1,10 +1,11 @@
-# Exclude local environment files
+# Ignore local environment files
 .env
 
-# Exclude test files and folders
+# Ignore development and testing files
 tests/
-*.test.js
+*.test.py
+*.pyc
 
-# Exclude documentation
+# Ignore large files or folders
+large_files/
 docs/
-README.md
