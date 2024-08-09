@@ -1,2 +1,2 @@
-Flask
-nltk
+Flask==2.3.3
+nltk==3.8.1
