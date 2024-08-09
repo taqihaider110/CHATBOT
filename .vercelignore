@@ -1,11 +1,4 @@
-# Ignore local environment files
+.git
+.vscode
 .env
-
-# Ignore development and testing files
-tests/
-*.test.py
-*.pyc
-
-# Ignore large files or folders
-large_files/
-docs/
+tests
