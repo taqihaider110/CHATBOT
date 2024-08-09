@@ -148,19 +148,23 @@ chatbot = Chat(patterns_and_responses, reflections)
 app = Flask(__name__)
 
 @app.route("/")
+@app.route("/")
 def index():
-    return render_template("index.html")  # This should be an HTML file that contains the chat interface
+    return render_template("index.html")
 
 @app.route("/get_response", methods=["POST"])
 def get_response():
     try:
-        data = request.get_json()  # Expecting JSON data
-        user_input = data.get("message")  # Extract message from the JSON
+        data = request.get_json()
+        user_input = data.get("message")
         response = chatbot.respond(user_input)
         return jsonify({"response": response})
     except Exception as e:
         return jsonify({"response": "Sorry, there was an error. Please try again."})
 
+@app.route("/test")
+def test():
+    return "Test route working!"
 
 if __name__ == "__main__":
     app.run(debug=True)
