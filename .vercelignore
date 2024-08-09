@@ -1,0 +1,10 @@
+# Exclude local environment files
+.env
+
+# Exclude test files and folders
+tests/
+*.test.js
+
+# Exclude documentation
+docs/
+README.md
