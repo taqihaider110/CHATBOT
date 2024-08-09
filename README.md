@@ -71,13 +71,13 @@ chatbot-interface/
 - **nltk**: Python's Natural Language Toolkit, used for basic chatbot functionality.
 - **Jinja2**: Templating engine for rendering dynamic content in HTML.
 
-## Screenshots
+# Screenshots
 
-# START OF CONVERSATION:
+## START OF CONVERSATION:
 
 ![WhatsApp Image 2024-08-09 at 22 02 43_978ceceb](https://github.com/user-attachments/assets/904d8b96-3376-47a1-bd4b-d95e04db76d3)
 
-# FURTHERMORE:
+## FURTHERMORE:
 
 ![image](https://github.com/user-attachments/assets/ab054ea9-a4ec-4106-89e4-ccc4722c9e1c)
 
